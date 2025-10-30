@@ -1,6 +1,7 @@
 body{
-  font-fmaily: sans-serif;
+  font-family: sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 a{ 
@@ -11,10 +12,11 @@ a{
 header{
    display: flex;
    height: 70px;
-   background-color: red;
-   justify-content:space.between;
+   background-color: #c8102e;
+   justify-content: space-between;
    align-items: center;
-   padding: 10px;
+   padding: 10px 30px;
+   box-shadow: 0 4px rgba(0,0,0,0.2);
  }
  
 .logo{
@@ -30,6 +32,7 @@ header{
 nav a{ 
       font-weight: 600;
       padding-right: 10px;
+      transition: color 0.3s;
 }
 
 nav a:hover{
